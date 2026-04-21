@@ -1,0 +1,21 @@
+{
+  "users": [
+    { "name": "John Doe", "email": "john@example.com" },
+    { "name": "Aisha Khan", "email": "aisha.khan@example.com" },
+    { "name": "Ravi Patel", "email": "ravi.patel@example.com" },
+    { "name": "Maria Garcia", "email": "maria.garcia@example.com" },
+    { "name": "Chen Wei", "email": "chen.wei@example.com" }
+  ],
+  "orders": [
+    { "id": "ORD001", "amount": 1200 },
+    { "id": "ORD002", "amount": 499 },
+    { "id": "ORD003", "amount": 2500 },
+    { "id": "ORD004", "amount": 899 },
+    { "id": "ORD005", "amount": 1750 }
+  ],
+  "analytics": {
+    "totalUsers": 10,
+    "totalOrders": 25,
+    "revenue": 50000
+  }
+}

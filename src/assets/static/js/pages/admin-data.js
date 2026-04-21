@@ -112,7 +112,7 @@ const applyAnalytics = (data) => {
 
 const loadAdminData = async () => {
   try {
-    const res = await fetch("./data.json", { cache: "no-store" })
+    const res = await fetch("/data.json", { cache: "no-store" })
     if (!res.ok) throw new Error(`Failed to load data.json (${res.status})`)
     const data = await res.json()
 
